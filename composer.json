@@ -1,0 +1,29 @@
+{
+    "name": "madalinignisca/drupal-skeleton",
+    "description": "Drupal application skeleton",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Madalin Ignisca",
+            "email": "madalin.ignisca@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url":  "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {        
+        "composer/installers": "^1.0.20",
+        "drupal/core": "8.0.*"
+    },
+    "extra": {
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/modules/contrib": ["type:drupal-module"],
+            "web/themes/contrib": ["type:drupal-theme"],
+            "web/profiles": ["type:drupal-profile"]
+        }
+    }
+}
