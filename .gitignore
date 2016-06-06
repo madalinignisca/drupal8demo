@@ -8,3 +8,9 @@ web/profiles/contrib
 # Ignore Drupal's file directory
 web/sites/*/files
 web/sites/*/private
+
+# Aegir files
+web/sites/sites.php
+web/sites/*/drushrc.php
+web/sites/*/local.settings.php
+web/sites/all/drush/drushrc.php
