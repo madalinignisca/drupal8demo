@@ -9,6 +9,10 @@ web/profiles/contrib
 web/sites/*/files
 web/sites/*/private
 
+# Ignore sites settings and services
+web/sites/*/settings.php
+web/sites/*/services.yml
+
 # Aegir files
 web/sites/sites.php
 web/sites/*/drushrc.php
